@@ -163,11 +163,11 @@ html,body {
 	color: white;
 }
 
-footer{
+/*footer{
 	position: fixed;
 	bottom: 0;
-}
-/* Media Query
+}*/
+
 @media (max-width: 880px) {
 
 	.footer-distributed{
@@ -187,7 +187,7 @@ footer{
 		margin-left: 0;
 	}
 
-} */
+} 
 
 
 

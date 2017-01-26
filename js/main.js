@@ -1,3 +1,4 @@
+
 /* sticky Navbar */
 
 var navPositionY = $('#page2').offset().top;
@@ -25,4 +26,3 @@ else if ($(window).scrollTop() == 0){
 }
 
 window.onscroll = logScroll;
-

@@ -1,6 +1,6 @@
 /* sticky Navbar */
 
-var navPositionY = $('#page2').offset().top;
+var navPositionY = $('.navbar').offset().top;
 
 function logScroll(){
   

@@ -6,9 +6,16 @@ html,body {
 	margin: 0;
 }
 
-.mainImage {
-	background: url("https://www.pexels.com/photo/person-surfing-during-daytime-52697/") no-repeat center center;
+.navbar {
+	margin-bottom: 0px;
+}
+
+/* Bas main intro page */
+
+.jumbotron {
+	background: url("../images/main.jpg") no-repeat center center;
 	height: 100%;
+	text-align: center;
 }
 
 
@@ -22,7 +29,7 @@ html,body {
 	font: bold 16px sans-serif;
 
 	padding: 55px 50px;
-	margin-top: 80px;
+	margin-top: 0px;
 }
 
 .footer-distributed .footer-left,
@@ -165,6 +172,12 @@ html,body {
 
 
 /* Products Page */
+.boards {
+	height: 600px;
+	background-color: #A7AAA4;
+}
+
+
 
 /*footer{
 	position: fixed;

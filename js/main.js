@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-main.js
-=======
 /* sticky Navbar */
 
 var navPositionY = $('#page2').offset().top;
@@ -28,4 +25,4 @@ else if ($(window).scrollTop() == 0){
 }
 
 window.onscroll = logScroll;
->>>>>>> 0863bae5a11217888e4dda6b467b615af1236182
+

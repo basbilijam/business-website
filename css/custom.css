@@ -21,9 +21,8 @@ html,body {
 	background: url("../images/main.jpg") no-repeat center center;
 	height: 100%;
 	text-align: center;
-
+	font-family: "Cookie", cursive;
 	background-size: cover;
-
 }
 
 

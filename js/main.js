@@ -15,6 +15,7 @@ var navPositionY = $('.navbar').offset().top;
     } else {
       $('.navbar')
         .css('position', 'fixed')
+        
 
     }
   }

@@ -21,3 +21,19 @@ var navPositionY = $('.navbar').offset().top;
   }
 
   window.onscroll = logScroll;
+
+
+  /* Click on product */
+
+  $('categories').click(function(){
+    console.log('you have clicked')
+      var id = $(this).attr('src');
+      $('src'.id).click(function(){
+
+        id.css({ // resize the image
+      height: '500px',
+      width: '500px'
+  });
+      })
+
+  })

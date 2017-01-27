@@ -20,6 +20,7 @@ var navPositionY = $('.navbar').offset().top;
     }
   }
 
+<<<<<<< HEAD
   window.onscroll = logScroll;
 
 
@@ -37,3 +38,6 @@ var navPositionY = $('.navbar').offset().top;
       })
 
   })
+=======
+  window.onscroll = logScroll;
+>>>>>>> f8f1b42d37ab473a0d7c1637d37f6f4e86398662

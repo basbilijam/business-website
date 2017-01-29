@@ -208,17 +208,17 @@ h1{
 
 /* Products Page */
 .boards {
-	height: 700px;
+	height: 800px;
 	
 }
 
 .clothing {
-	height: 700px;
+	height: 800px;
 	
 }
 
 .wetSuits {
-	height: 700px;
+	height: 800px;
 	
 }
 
@@ -231,41 +231,57 @@ h1{
 	padding-top: 55px;
 	margin-top: 0px;
 	z-index: -0;
-<<<<<<< HEAD
-=======
 	width: 100%;
->>>>>>> leo-branch
+
 }
 
 
 
-div.img {
+div.img1 {
     margin: 5px;
     margin-top: 40px;   
     float: left;
     width: 24%;
     border-radius: 15px;
     background-color: white;
+
+
 }
 
-div.img:hover {
+div.img1:hover {
     border: 1px solid #777;
 }
 
-div.img img {
+a {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+a .img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+}
+
+div.img img1 {
     width: 250px;
     height: 300px;
     border-radius: 15px;
     background-position: center;
+    
+
 }
 
 div.desc {
     padding: 15px;
     text-align: center;
     height: 60px;
-<<<<<<< HEAD
-=======
+
 }
+
+
 
 .buyButton {
 	background-color: #7D98A1;
@@ -275,7 +291,7 @@ div.desc {
 	border-radius: 10px;
 	height: 40px;
 	font-size: 20px;
->>>>>>> leo-branch
+
 }
 
 .buyButton {

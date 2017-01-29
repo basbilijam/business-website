@@ -1,8 +1,9 @@
-
+$(document).ready(function(){
 /* sticky Navbar */
 
 var navPositionY = $('.navbar').offset().top;
 
+  
   function logScroll() {
 
    
@@ -26,14 +27,21 @@ var navPositionY = $('.navbar').offset().top;
 
   /* Click on product */
 
-  function handler( event ) {
-    var target = $( event.target );
-    if ( target.is( ".categories" ) ) {
-      console.log("clicked")
-      target.children().toggle();
-    }
-  }
-  $( "div.img" ).click( handler ).find( "img" ).hide();
+ $("div.categories img").click(function(event){
+  var target = $(event.target);
+  console.log("clicked");
+
+  if(target.is("img")){
+    console.log("clickedtothe Img");
+    target.animate({
+      height: "500px",
+      width: "400px",
+
+    });
+    };
+});
+
+
 
   // $('.categories').click(function(event){
   //   console.log('you have clicked')
@@ -48,4 +56,6 @@ var navPositionY = $('.navbar').offset().top;
   // })
 
   window.onscroll = logScroll;
+
+});
 

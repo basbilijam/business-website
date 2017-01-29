@@ -26,12 +26,11 @@ var navPositionY = $('.navbar').offset().top;
 
   /* Click on product */
 
-  $('categories').click(function(){
+  $('.category').click(function(event){
     console.log('you have clicked')
-      var id = $(this).attr('src');
-      $('src'.id).click(function(){
+      $('.img').click(function(){
 
-        id.css({ // resize the image
+        css({ // resize the image
       height: '500px',
       width: '500px'
   });

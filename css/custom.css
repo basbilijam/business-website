@@ -16,7 +16,7 @@ html,body {
 }
 
 img{
-	margin-top: 10px;
+	margin-top: 80px;
 
 }
 form{
@@ -28,15 +28,14 @@ form{
 h1{
 	float: right;
 	font-size: 40px;
-	margin-top: 100px;
+	margin-top: -400px;
 	margin-right: 404px;
-	margin-left: 500px;
-	text-decoration: overline;
+	margin-left: 400px;
 }
 .content{
     margin-right: 408px;
 	margin-left: 400px;
-	margin-top: -335px;
+	margin-top: -290px;
 	margin-bottom: 100px;
 }
 

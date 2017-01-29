@@ -10,10 +10,9 @@ html,body {
 	margin-bottom: 0px;
 	position: fixed;
 	width: 100%;
-	background-color: white;
-	opacity: 0.5;
+	border-style: none;
+	background-color: transparent;
 }
-
 
 /* Bas main intro page */
 

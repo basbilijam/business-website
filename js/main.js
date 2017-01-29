@@ -12,11 +12,10 @@ var navPositionY = $('.navbar').offset().top;
         .css('top', '0')
         .css('left', '0')
         .css('width', '100%')
+        .css('background-color', 'white')
     } else {
       $('.navbar')
         .css('position', 'fixed')
-        
-
     }
   }
 
@@ -44,4 +43,4 @@ $(".navbar-toggle").click(function(){
 
   })
 
-  window.onscroll = logScroll;
+

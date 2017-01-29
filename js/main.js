@@ -12,7 +12,8 @@ var navPositionY = $('.navbar').offset().top;
         .css('top', '0')
         .css('left', '0')
         .css('width', '100%')
-        .css('background-color', 'white')
+        .css('background-color', 'black')
+        .css('opacity', '0.5')
     } else {
       $('.navbar')
         .css('position', 'fixed')

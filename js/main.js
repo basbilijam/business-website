@@ -26,18 +26,34 @@ var navPositionY = $('.navbar').offset().top;
 
 
   /* Click on product */
+  var count = 0;
+
 
  $("div.categories img").click(function(event){
   var target = $(event.target);
   console.log("clicked");
 
   if(target.is("img")){
+    if(count % 2 === 0){
     console.log("clickedtothe Img");
     target.animate({
       height: "500px",
       width: "400px",
 
+
     });
+    count += 1;
+    } else {
+      console.log("clickedtothe Img");
+    target.animate({
+      height: "300px",
+      width: "250px",
+
+
+    });
+    count += 1;
+      
+    }
     };
 });
 

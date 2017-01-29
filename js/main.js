@@ -20,8 +20,13 @@ var navPositionY = $('.navbar').offset().top;
     }
   }
 
- HEAD
   window.onscroll = logScroll;
+
+// Navbar hamburger toggle
+
+$(".navbar-toggle").click(function(){
+  $(".navbar-collapse").toggle();
+});  
 
 
   /* Click on product */
@@ -40,4 +45,3 @@ var navPositionY = $('.navbar').offset().top;
   })
 
   window.onscroll = logScroll;
- f8f1b42d37ab473a0d7c1637d37f6f4e86398662

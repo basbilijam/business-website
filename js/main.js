@@ -20,23 +20,32 @@ var navPositionY = $('.navbar').offset().top;
     }
   }
 
- HEAD
+
   window.onscroll = logScroll;
 
 
   /* Click on product */
 
-  $('.category').click(function(event){
-    console.log('you have clicked')
-      $('.img').click(function(){
+  function handler( event ) {
+    var target = $( event.target );
+    if ( target.is( ".categories" ) ) {
+      console.log("clicked")
+      target.children().toggle();
+    }
+  }
+  $( "div.img" ).click( handler ).find( "img" ).hide();
 
-        css({ // resize the image
-      height: '500px',
-      width: '500px'
-  });
-      })
+  // $('.categories').click(function(event){
+  //   console.log('you have clicked')
+  //     $('.img').html(event.target, function(){
+  //         console.log('you have clicked the image')
+  //       css({ // resize the image
+  //     height: '500px',
+  //     width: '500px'
+  // });
+  //     })
 
-  })
+  // })
 
   window.onscroll = logScroll;
- f8f1b42d37ab473a0d7c1637d37f6f4e86398662
+

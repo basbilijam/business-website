@@ -57,12 +57,26 @@ var navPositionY = $('.navbar').offset().top;
     };
 });
 
- $(".img1").mouseenter(function(event){
-  var target = $(event.target);
+ var block = false;
 
-  if(target.is(".img1 img")){
-    $(".img1").find('buyButton').fadeTo('slow', 1.0);
-    console.log('button yeri');
+ $(".img1").mouseenter(function(event){
+
+
+  if(!block){
+    block = true;
+    $(event.target).closest("button").fadeTo('slow', 1.0);
+    block = false;
+  }
+
+ });
+
+ $(".img1").mouseleave(function(event){
+
+
+  if(!block){
+    block = true;
+    $(event.target).closest("button").fadeTo('slow', 0);
+    block = false;
   }
 
  });

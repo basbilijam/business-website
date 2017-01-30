@@ -17,8 +17,12 @@
 	<title>Surfio Surfshop</title>
 
     <!-- include JQuery 3.1.1 -->
+
+	<script type='text/javascript' src="js/lib/jquery/jquery-3.1.1.min.js""></script>
+
 	<script type='text/javascript' src="js/lib/jquery/jquery-3.1.1.min.js"></script>
   <script type='text/javascript' src="js/main.js"></script>
+
 	<!-- include Bootstrap v 3.7.7-->
 	<link rel='stylesheet' href='css/lib/bootstrap/css/bootstrap.min.css'></link>
 	 <!-- include Fonts-->
@@ -32,20 +36,29 @@
 
 
 <!--Nav Bar-->
-<nav class="navbar navbar-default">
-  		<div class="container-fluid">
-    		<div class="navbar-header">
-      			<a class="navbar-brand" href="#home">Surfshop</a>
-    		</div>
-    	<ul class="nav navbar-nav navbar-right">
-      		<li><a href="index.html">Home</a></li>
-      		<li><a href="products.html">Products</a></li>
-      		<li><a href="about.html">About</a></li>
-      		<li><a href="contact.html">Contact</a></li>
-      		<li><a href="#" id="cart"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a></li>
-    		</ul>
-  		</div>
-  	</nav>
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+            <a class="navbar-brand" href="#home">Surfshop</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#" id="cart"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
   	<div class= "categories">
   			<div class="boards">
@@ -252,6 +265,12 @@
 			</div>
 
 		</footer>
+
+	
+  <!--Custom JavaScript added-->
+  <script type="text/javascript" src="js/main.js"></script>
+
+
 
 
 </body>

@@ -13,17 +13,29 @@ var navPositionY = $('.navbar').offset().top;
         .css('top', '0')
         .css('left', '0')
         .css('width', '100%')
+        .css('background-color', 'black')
+        .css('opacity', '0.5')
     } else {
       $('.navbar')
         .css('position', 'fixed')
-        
-
     }
   }
 
 
+
+
+
   window.onscroll = logScroll;
 
+// Navbar hamburger toggle
+
+$(".navbar-toggle").click(function(){
+  $(".navbar-collapse").toggle();
+});  
+
+
+
+/* Click on product */
 
   /* Click on product */
   var count = 0;
@@ -48,6 +60,7 @@ var navPositionY = $('.navbar').offset().top;
     target.animate({
       height: "400px",
       width: "300px",
+
 
 
     });
@@ -95,7 +108,10 @@ var navPositionY = $('.navbar').offset().top;
 
   // })
 
+
+
   window.onscroll = logScroll;
 
 });
+
 

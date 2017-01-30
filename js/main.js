@@ -46,8 +46,8 @@ var navPositionY = $('.navbar').offset().top;
     } else {
       console.log("clickedtothe Img");
     target.animate({
-      height: "300px",
-      width: "250px",
+      height: "400px",
+      width: "300px",
 
 
     });
@@ -56,6 +56,16 @@ var navPositionY = $('.navbar').offset().top;
     }
     };
 });
+
+ $(".img1").mouseenter(function(event){
+  var target = $(event.target);
+
+  if(target.is(".img1 img")){
+    $(".img1").find('buyButton').fadeTo('slow', 1.0);
+    console.log('button yeri');
+  }
+
+ });
 
 
 

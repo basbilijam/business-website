@@ -244,6 +244,7 @@ div.img1 {
     width: 24%;
     border-radius: 15px;
     background-color: white;
+    position: relative;
 
 
 }
@@ -285,24 +286,19 @@ div.desc {
 
 .buyButton {
 	background-color: #7D98A1;
+	position: relative;	
 	width:  100%;
 	color: white;
 	border-style: none;
 	border-radius: 10px;
 	height: 40px;
 	font-size: 20px;
+	opacity: 0;
+
 
 }
 
-.buyButton {
-	background-color: #7D98A1;
-	width:  100%;
-	color: white;
-	border-style: none;
-	border-radius: 10px;
-	height: 40px;
-	font-size: 20px;
-}
+
 
 
 

@@ -33,53 +33,6 @@ $(".navbar-toggle").click(function(){
   $(".navbar-collapse").toggle();
 });  
 
-// Main page images 
-
-var currentImage;
-var counter = 0;
-
-$( ".image-portfolio" ).click(function(e) {
- if (counter%2 == 0) {
- currentImage = e.target;
- console.info (currentImage);
-
-  $(e.target)
- 
-  .css('position','fixed')
-   .css('z-index','2')
-  
-  .animate({
- 
-   width:"75%",
-   height:"75%",
-   margin: "auto",
-   top:0,
-   left:0,
-   
-    
-  }, 900, function() {
-
-   $(".image-portfolio").show(900);
-  });
-  counter +=1;
-}
-
-else {
-(counter%2 == 1)
-$(e.target)
-
-  .css('position','relative')
-   .css('z-index','1')
-   .animate({
-   width:"250px",
-   height:"250px",
-   margin: "10px",
-   }, 900, function() {
-    $(".image-portfolio").show(900);
-  });
-  counter += 1;
-  }
-});
 
 /* Click on product */
 

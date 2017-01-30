@@ -96,6 +96,7 @@ h3{
 	margin: 10px; 
 	width:300px;
 	height:380px;
+	border-color: none;
 }
 
 .thumbnail h5 {

@@ -1,3 +1,4 @@
+
 html,body {
 	height:100%;
 	padding: 0;
@@ -12,11 +13,11 @@ html,body {
 	width: 100%;
 	border-style: none;
 	color: white;
-	background-color: white;
-	opacity: 0.5;
+	background-color: transparent;
 	z-index: 10;
 	border-radius: 0;
 }
+
 
 
 img {
@@ -71,6 +72,7 @@ h3{
 	background-size: cover;
 	margin-bottom: 0px;
 	margin-right: -165px;
+	font-family: 'Cabin Sketch', cursive;
 }
 
 .intro {

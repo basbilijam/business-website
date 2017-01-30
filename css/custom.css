@@ -2,7 +2,7 @@ html,body {
 	height:100%;
 	padding: 0;
 	margin: 0;
-	font-family: "Impact";
+	font-family: 'Cabin Sketch', cursive;
 }
 
 .navbar {
@@ -30,20 +30,24 @@ form {
 	position:absolute; 	
 }
 
-/*h1{
-	
-	font-size: 40px;
-	margin-top: 100px;
-	text-decoration: overline;
-	width: 100%;
-	text-align: center;
-	margin-top: -400px; */
+.topPageHeader{
+	float: left;
+	margin-left: 30px;
+	margin-top: 80px;
+}
+
+.topPageHeader h1 {
+	text-align: left;
+	font-size: 80px;
+}
+
 	
 
 
 h3{
-	font-family: surfpoint;
-	font-size: 70px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 60px;
+	
 }
 
 .content{
@@ -87,15 +91,17 @@ h3{
 	margin: 10px; 
 	width:300px;
 	height:380px;
-	border-color: none;
+	border: none;
 }
 
 .thumbnail h5 {
 	font-weight: bold;
+	text-align: center;
 }
 
 .thumbnail p {
 	margin: 1px 1px 1px 1px;
+	text-align: center;
 }
 
 #image1 {

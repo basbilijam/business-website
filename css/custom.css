@@ -34,10 +34,7 @@ form{
     box-sizing: border-box;
 	margin-top: 250px;
 	position:absolute; 	
-}
-h3{
-	font-family: surfpoint;
-	font-size: 70px;
+
 }
 
 .content{
@@ -57,6 +54,7 @@ h3{
 
 	height: 100%;
 	text-align: center;
+	font-family: impact;
 	font-weight: bold; 
 	color:white;
 	background-size: cover;

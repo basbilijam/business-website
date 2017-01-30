@@ -1,29 +1,80 @@
 
+
 html,body {
 	height:100%;
 	padding: 0;
 	margin: 0;
+	font-family: "Impact";
 }
+
+.navbar {
+	margin-bottom: 0px;
+	position: fixed;
+	width: 100%;
+
+	border-style: none;
+
+	color: white;
+	background-color: white;
+	opacity: 0.5;
+	z-index: 10;
+}
+img{
+	margin: 6px;
+	margin-top: 10px;
+
+}
+form{
+	margin-left: 965px;
+    box-sizing: border-box;
+	margin-top: 250px;
+	position:absolute; 	
+}
+h3{
+	font-family: surfpoint;
+	font-size: 70px;
+}
+
+.content{
+    margin-right: 408px;
+	margin-left: 400px;
+	margin-top: -290px;
+	margin-bottom: 100px;
+}
+
 
 /* Bas main intro page */
 
 .jumbotron {
-	background: url("../images/main.jpg") no-repeat center center;
+
+	
+	background: url("../images/surf4.jpg") no-repeat center center; 
+
 	height: 100%;
 	text-align: center;
+	font-weight: bold; 
+	color: white;
+	background-size: cover;
+
+	margin-bottom: 0px;
+	margin-right: -165px;
 }
+
+
+
+
 
 /* Kaan Main page Footer */
 .footer-distributed{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
+	box-sizing: initial;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
 
-	padding: 55px 50px;
-	margin-top: 80px;
+	padding: 55px 83px;
+	margin-top: 0px;
 }
 
 .footer-distributed .footer-left,
@@ -164,11 +215,125 @@ html,body {
 	color: white;
 }
 
-footer{
+
+/* Products Page */
+.boards {
+
+	height: 700px;
+
+
+	height: 800px;
+
+	
+}
+
+.clothing {
+	height: 800px;
+	
+}
+
+.wetSuits {
+	height: 800px;
+	
+}
+
+.categoryHeader {
+	font-size: 50px;
+	color: grey;
+	text-align: center;
+	display: inherit;
+	position: relative;
+	padding-top: 55px;
+	margin-top: 0px;
+	z-index: -0;
+	width: 100%;
+
+}
+
+
+
+div.img1 {
+    margin: 5px;
+    margin-top: 40px;   
+    float: left;
+    width: 24%;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+
+
+}
+
+div.img1:hover {
+    border: 1px solid #777;
+}
+
+a {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+a .img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+}
+
+div.img img1 {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-position: center;
+    
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    height: 60px;
+
+}
+
+
+
+.buyButton {
+	background-color: #9BE564;
+	position: relative;	
+	width:  100%;
+	color: white;
+	border-style: none;
+	border-radius: 10px;
+	height: 40px;
+	font-size: 20px;
+	opacity: 0;
+
+
+}
+
+
+
+
+
+
+.productPage {
+	height: 600px;
+}
+
+.paypalPay{
+	margin-left: 100px;
+}
+
+
+
+
+/*footer{
 	position: fixed;
 	bottom: 0;
-}
-/* Media Query
+}*/
+
 @media (max-width: 880px) {
 
 	.footer-distributed{
@@ -188,7 +353,4 @@ footer{
 		margin-left: 0;
 	}
 
-} */
-
-
-
+} 

@@ -1,8 +1,9 @@
-
+$(document).ready(function(){
 /* sticky Navbar */
 
 var navPositionY = $('.navbar').offset().top;
 
+  
   function logScroll() {
 
    
@@ -20,6 +21,10 @@ var navPositionY = $('.navbar').offset().top;
     }
   }
 
+
+
+
+
   window.onscroll = logScroll;
 
 // Navbar hamburger toggle
@@ -29,19 +34,70 @@ $(".navbar-toggle").click(function(){
 });  
 
 
+
 /* Click on product */
 
-  $('categories').click(function(){
-    console.log('you have clicked')
-      var id = $(this).attr('src');
-      $('src'.id).click(function(){
+  /* Click on product */
+  var count = 0;
 
-        id.css({ // resize the image
-      height: '500px',
-      width: '500px'
-  });
-      })
 
-  })
+ $("div.categories img").click(function(event){
+  var target = $(event.target);
+  console.log("clicked");
+
+  if(target.is("img")){
+    if(count % 2 === 0){
+    console.log("clickedtothe Img");
+    target.animate({
+      height: "500px",
+      width: "400px",
+
+
+    });
+    count += 1;
+    } else {
+      console.log("clickedtothe Img");
+    target.animate({
+      height: "400px",
+      width: "300px",
+
+
+
+    });
+    count += 1;
+      
+    }
+    };
+});
+
+ $(".img1").mouseenter(function(event){
+  var target = $(event.target);
+
+  if(target.is(".img1 img")){
+    $(".img1").find('buyButton').fadeTo('slow', 1.0);
+    console.log('button yeri');
+  }
+
+ });
+
+
+
+  // $('.categories').click(function(event){
+  //   console.log('you have clicked')
+  //     $('.img').html(event.target, function(){
+  //         console.log('you have clicked the image')
+  //       css({ // resize the image
+  //     height: '500px',
+  //     width: '500px'
+  // });
+  //     })
+
+  // })
+
+
+
+  window.onscroll = logScroll;
+
+});
 
 

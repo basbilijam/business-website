@@ -29,7 +29,7 @@ $(".navbar-toggle").click(function(){
 });  
 
 
-  /* Click on product */
+/* Click on product */
 
   $('categories').click(function(){
     console.log('you have clicked')

@@ -19,14 +19,13 @@ html,body {
 /* Bas main intro page */
 
 .jumbotron {
-	background: url("../images/surf4.jpg") no-repeat center center;
+	background: url("../images/surf4.jpg") no-repeat center center; 
 	height: 100%;
 	text-align: center;
 	font-weight: bold; 
 	color: white;
 	background-size: cover;
-}
-
+} 
 
 /* Kaan Main page Footer */
 .footer-distributed{

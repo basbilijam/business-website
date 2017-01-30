@@ -13,10 +13,8 @@ html,body {
 	width: 100%;
 
 	border-style: none;
-	background-color: transparent;
+
 	color: white;
-
-
 	background-color: white;
 	opacity: 0.5;
 	z-index: 10;
@@ -36,26 +34,7 @@ h3{
 	font-family: surfpoint;
 	font-size: 70px;
 }
-h1{
 
-	float: right;
-	font-family: aloha;
-	font-size: 50px;
-	margin-top: -400px;
-	margin-right: 515px;
-	margin-left: 400px;
-
-	
-	font-size: 40px;
-	margin-top: 100px;
-	text-decoration: overline;
-	width: 100%;
-	text-align: center;
-	margin-top: -400px;
-	
-
-
-}
 .content{
     margin-right: 408px;
 	margin-left: 400px;
@@ -82,7 +61,7 @@ h1{
 }
 
 
-} 
+
 
 
 /* Kaan Main page Footer */
@@ -321,7 +300,7 @@ div.desc {
 
 
 .buyButton {
-	background-color: #7D98A1;
+	background-color: #9BE564;
 	position: relative;	
 	width:  100%;
 	color: white;

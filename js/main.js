@@ -34,7 +34,6 @@ $(".navbar-toggle").click(function(){
 });  
 
 
-
 /* Click on product */
 
   /* Click on product */

@@ -11,13 +11,12 @@ html,body {
 	margin-bottom: 0px;
 	position: fixed;
 	width: 100%;
-
 	border-style: none;
-
 	color: white;
 	background-color: white;
 	opacity: 0.5;
 	z-index: 10;
+	border-radius: 0;
 }
 img{
 	margin: 6px;
@@ -276,20 +275,15 @@ h3{
 .boards {
 
 	height: 700px;
-
-
-	height: 800px;
-
-	
 }
 
 .clothing {
-	height: 800px;
+	height: 700px;
 	
 }
 
 .wetSuits {
-	height: 800px;
+	height: 700px;
 	
 }
 
@@ -310,10 +304,10 @@ h3{
 
 div.img1 {
     margin: 5px;
-    margin-top: 40px;   
+    margin-top: 30px;   
     float: left;
     width: 24%;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: white;
     position: relative;
 
@@ -321,7 +315,7 @@ div.img1 {
 }
 
 div.img1:hover {
-    border: 1px solid #777;
+    
 }
 
 a {
@@ -338,8 +332,8 @@ a .img {
 }
 
 div.img img1 {
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     border-radius: 15px;
     background-position: center;
     
@@ -356,12 +350,12 @@ div.desc {
 
 
 .buyButton {
-	background-color: #9BE564;
+	background-color: #9BC53D;
 	position: relative;	
 	width:  100%;
 	color: white;
 	border-style: none;
-	border-radius: 10px;
+	border-radius: 5px;
 	height: 40px;
 	font-size: 20px;
 	opacity: 0;

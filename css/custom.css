@@ -14,9 +14,9 @@ html,body {
 	opacity: 0.5;
 	z-index: 10;
 }
-
 img{
-	margin-top: 80px;
+	margin: 6px;
+	margin-top: 10px;
 
 }
 form{
@@ -25,11 +25,16 @@ form{
 	margin-top: 250px;
 	position:absolute; 	
 }
+h3{
+	font-family: surfpoint;
+	font-size: 70px;
+}
 h1{
 	float: right;
-	font-size: 40px;
+	font-family: aloha;
+	font-size: 50px;
 	margin-top: -400px;
-	margin-right: 404px;
+	margin-right: 515px;
 	margin-left: 400px;
 }
 .content{
@@ -207,6 +212,7 @@ h1{
 /* Products Page */
 .boards {
 	height: 700px;
+
 	
 }
 

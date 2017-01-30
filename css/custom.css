@@ -30,6 +30,18 @@ form{
 	margin-top: 250px;
 	position:absolute; 	
 }
+
+/*h1{
+	
+	font-size: 40px;
+	margin-top: 100px;
+	text-decoration: overline;
+	width: 100%;
+	text-align: center;
+	margin-top: -400px; */
+	
+
+
 h3{
 	font-family: surfpoint;
 	font-size: 70px;
@@ -63,6 +75,50 @@ h3{
 
 
 
+
+.intro {
+	margin: 0 10% 0 10%;
+}
+
+.image-portfolio {
+	float: left;
+	display: inline-block;
+	margin: 10px;
+	width:250px;
+	height:250px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.thumbnail {
+	float: left;
+	display: inline-block;
+	margin: 10px; 
+	width:300px;
+	height:380px;
+}
+
+.thumbnail h5 {
+	font-weight: bold;
+}
+
+.thumbnail p {
+	margin: 1px 1px 1px 1px;
+}
+
+#image1 {
+	background: url("../images/surf11.jpg") no-repeat center center;
+	background-size:cover;
+}
+
+#image2 {
+	background: url("../images/surf12.jpeg") no-repeat center center;
+	background-size:cover;
+}
+
+.col-md-6 p {
+	margin-right: 10px;
+}
 
 /* Kaan Main page Footer */
 .footer-distributed{

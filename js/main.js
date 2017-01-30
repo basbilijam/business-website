@@ -1,8 +1,9 @@
-
+$(document).ready(function(){
 /* sticky Navbar */
 
 var navPositionY = $('.navbar').offset().top;
 
+  
   function logScroll() {
 
    
@@ -12,32 +13,91 @@ var navPositionY = $('.navbar').offset().top;
         .css('top', '0')
         .css('left', '0')
         .css('width', '100%')
+        .css('background-color', 'black')
+        .css('opacity', '0.5')
     } else {
       $('.navbar')
         .css('position', 'fixed')
-        
-
     }
   }
 
- HEAD
+
+
+
+
   window.onscroll = logScroll;
 
+// Navbar hamburger toggle
+
+$(".navbar-toggle").click(function(){
+  $(".navbar-collapse").toggle();
+});  
+
+
+
+/* Click on product */
 
   /* Click on product */
+  var count = 0;
 
-  $('categories').click(function(){
-    console.log('you have clicked')
-      var id = $(this).attr('src');
-      $('src'.id).click(function(){
 
-        id.css({ // resize the image
-      height: '500px',
-      width: '500px'
-  });
-      })
+ $("div.categories img").click(function(event){
+  var target = $(event.target);
+  console.log("clicked");
 
-  })
+  if(target.is("img")){
+    if(count % 2 === 0){
+    console.log("clickedtothe Img");
+    target.animate({
+      height: "500px",
+      width: "400px",
+
+
+    });
+    count += 1;
+    } else {
+      console.log("clickedtothe Img");
+    target.animate({
+      height: "400px",
+      width: "300px",
+
+
+
+    });
+    count += 1;
+      
+    }
+    };
+});
+
+ $(".img1").mouseenter(function(event){
+  var target = $(event.target);
+
+  if(target.is(".img1 img")){
+    $(".img1").find('buyButton').fadeTo('slow', 1.0);
+    console.log('button yeri');
+  }
+
+ });
+
+
+
+  // $('.categories').click(function(event){
+  //   console.log('you have clicked')
+  //     $('.img').html(event.target, function(){
+  //         console.log('you have clicked the image')
+  //       css({ // resize the image
+  //     height: '500px',
+  //     width: '500px'
+  // });
+  //     })
+
+  // })
+
+
 
   window.onscroll = logScroll;
- f8f1b42d37ab473a0d7c1637d37f6f4e86398662
+
+});
+
+

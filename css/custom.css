@@ -17,6 +17,12 @@ html,body {
 	z-index: 10;
 	border-radius: 0;
 }
+<<<<<<< Updated upstream
+=======
+@font-face{
+	font-family: myFirstFont;
+	src: url (fonts/Aloha.otf);
+>>>>>>> Stashed changes
 
 
 img {

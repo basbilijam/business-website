@@ -20,10 +20,17 @@ html,body {
 
 
 
+
 img {
+
+repo{
+	margin-left: -50px;
+}
+img{
+
 	margin: 6px;
 	margin-top: 10px;
-
+    
 }
 
 form {
@@ -31,6 +38,7 @@ form {
     box-sizing: border-box;
 	margin-top: 250px;
 	position:absolute; 	
+
 }
 
 .topPageHeader{
@@ -67,8 +75,9 @@ h3{
 	background: url("../images/surf4.jpg") no-repeat center center; 
 	height: 100%;
 	text-align: center;
+	font-family: impact;
 	font-weight: bold; 
-	color: white;
+	color:white;
 	background-size: cover;
 	margin-bottom: 0px;
 	margin-right: -165px;
@@ -78,6 +87,7 @@ h3{
 .intro {
 	margin: 0 10% 0 10%;
 }
+
 
 .image-portfolio {
 	float: left;
@@ -123,9 +133,10 @@ h3{
 }
 
 
+
 /* Kaan Main page Footer */
 .footer-distributed{
-	background-color: #292c2f;
+	background-color: black;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: initial;
 	width: 100%;
@@ -279,6 +290,12 @@ h3{
 .boards {
 
 	height: 700px;
+
+
+	height: 800px;
+
+	
+
 }
 
 .clothing {

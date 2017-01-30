@@ -62,6 +62,50 @@ h1{
 	background-size: cover;
 } 
 
+.intro {
+	margin: 0 10% 0 10%;
+}
+
+.image-portfolio {
+	float: left;
+	display: inline-block;
+	margin: 10px;
+	width:250px;
+	height:250px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.thumbnail {
+	float: left;
+	display: inline-block;
+	margin: 10px; 
+	width:300px;
+	height:380px;
+}
+
+.thumbnail h5 {
+	font-weight: bold;
+}
+
+.thumbnail p {
+	margin: 1px 1px 1px 1px;
+}
+
+#image1 {
+	background: url("../images/surf11.jpg") no-repeat center center;
+	background-size:cover;
+}
+
+#image2 {
+	background: url("../images/surf12.jpeg") no-repeat center center;
+	background-size:cover;
+}
+
+.col-md-6 p {
+	margin-right: 10px;
+}
+
 /* Kaan Main page Footer */
 .footer-distributed{
 	background-color: #292c2f;

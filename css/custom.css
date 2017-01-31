@@ -1,46 +1,67 @@
 
-
 html,body {
 	height:100%;
 	padding: 0;
 	margin: 0;
-	font-family: "Impact";
+	font-family: 'Cabin Sketch', cursive;
+
 }
 
 .navbar {
 	margin-bottom: 0px;
 	position: fixed;
 	width: 100%;
-
 	border-style: none;
-	background-color: transparent;
 	color: white;
-
-
-	background-color: white;
+	background-color: black;
 	opacity: 0.5;
 	z-index: 10;
+	border-radius: 0;
 }
-repo{
+
+
+img.repo{
 	margin-left: -50px;
 }
 img{
+
 	margin: 6px;
 	margin-top: 10px;
     
 }
-form{
-	margin-left: 965px;
+
+form {
+	margin-left: 900px;
     box-sizing: border-box;
-	margin-top: 250px;
+	margin-top: 100px;
 	position:absolute; 	
 
 }
 
+.topPageHeader{
+	float: left;
+	margin-left: 30px;
+	margin-top: 80px;
+}
+
+.topPageHeader h1 {
+	text-align: left;
+	font-size: 80px;
+}
+
+	
+
+
+h3{
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 60px;
+	
+}
+
 .content{
     margin-right: 408px;
-	margin-left: 400px;
-	margin-top: -290px;
+	margin-left: 411px;
+	margin-top: -360px;
 	margin-bottom: 100px;
 }
 
@@ -48,22 +69,66 @@ form{
 /* Bas main intro page */
 
 .jumbotron {
-
-	
 	background: url("../images/surf4.jpg") no-repeat center center; 
-
 	height: 100%;
 	text-align: center;
 	font-family: impact;
 	font-weight: bold; 
 	color:white;
 	background-size: cover;
-
 	margin-bottom: 0px;
 	margin-right: -165px;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+.intro {
+	margin: 0 10% 0 10%;
 }
 
 
+.image-portfolio {
+	float: left;
+	display: inline-block;
+	margin: 10px;
+	width:250px;
+	height:250px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.thumbnail {
+	float: left;
+	display: inline-block;
+	margin: 10px; 
+	width:300px;
+	height:380px;
+	border: none;
+	margin-top: 30px;
+}
+
+.thumbnail h5 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.thumbnail p {
+	margin: 1px 1px 1px 1px;
+	text-align: center;
+}
+
+#image1 {
+	background: url("../images/surf11.jpg") no-repeat center center;
+	background-size:cover;
+}
+
+#image2 {
+	background: url("../images/surf12.jpeg") no-repeat center center;
+	background-size:cover;
+}
+
+.col-md-6 p {
+	margin-right: 10px;
+}
 
 
 /* Kaan Main page Footer */
@@ -223,18 +288,20 @@ form{
 
 	height: 700px;
 
+
 	height: 800px;
 
 	
+
 }
 
 .clothing {
-	height: 800px;
+	height: 700px;
 	
 }
 
 .wetSuits {
-	height: 800px;
+	height: 700px;
 	
 }
 
@@ -255,10 +322,10 @@ form{
 
 div.img1 {
     margin: 5px;
-    margin-top: 40px;   
+    margin-top: 30px;   
     float: left;
     width: 24%;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: white;
     position: relative;
 
@@ -266,7 +333,7 @@ div.img1 {
 }
 
 div.img1:hover {
-    border: 1px solid #777;
+    
 }
 
 a {
@@ -283,8 +350,8 @@ a .img {
 }
 
 div.img img1 {
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     border-radius: 15px;
     background-position: center;
     
@@ -301,15 +368,19 @@ div.desc {
 
 
 .buyButton {
-	background-color: #7D98A1;
+	
 	position: relative;	
 	width:  100%;
 	color: white;
 	border-style: none;
-	border-radius: 10px;
+	border-radius: 5px;
 	height: 40px;
 	font-size: 20px;
 	opacity: 0;
+    background: #43cea2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #43cea2 , #185a9d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 
 
 }

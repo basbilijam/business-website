@@ -13,15 +13,14 @@ html,body {
 	width: 100%;
 	border-style: none;
 	color: white;
-	background-color: transparent;
+	background-color: black;
+	opacity: 0.5;
 	z-index: 10;
 	border-radius: 0;
 }
 
 
-
-
-repo{
+img.repo{
 	margin-left: -50px;
 }
 img{
@@ -32,9 +31,9 @@ img{
 }
 
 form {
-	margin-left: 965px;
+	margin-left: 900px;
     box-sizing: border-box;
-	margin-top: 250px;
+	margin-top: 100px;
 	position:absolute; 	
 
 }
@@ -61,8 +60,8 @@ h3{
 
 .content{
     margin-right: 408px;
-	margin-left: 400px;
-	margin-top: -290px;
+	margin-left: 411px;
+	margin-top: -360px;
 	margin-bottom: 100px;
 }
 
@@ -130,7 +129,6 @@ h3{
 .col-md-6 p {
 	margin-right: 10px;
 }
-
 
 
 /* Kaan Main page Footer */
